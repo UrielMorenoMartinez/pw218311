@@ -1,0 +1,37 @@
+body{
+	border:1px solid blue;
+	font-size: 16px; /*1em*/
+	margin: 0px auto;/*esto es para el margen de arriba de la pagina*/
+	max-width: 1078px;/*para celulares es 1024 pero como la imagen mide eso y el cliente quiero asi*/
+	min-width: 1078px;
+
+
+}
+
+header input{
+	float: right;
+	margin-right: -210px;
+	margin-top: 15px;
+	position: relative;
+}
+header nav{
+	margin-left: 220px;
+}
+header nav ul li{
+	border-bottom: 1px solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	padding-bottom: 2px;
+	/*text-decoration: underline;*/
+}
+
+#granthams{
+	margin-top: 25px;
+	margin-left: 24px;
+}
+
+#paint{
+	float: right; 
+}
