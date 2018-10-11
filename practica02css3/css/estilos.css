@@ -1,5 +1,5 @@
 body{
-	border:1px solid blue;
+	/*border:1px solid blue;
 	font-size: 16px; /*1em*/
 	margin: 0px auto;/*esto es para el margen de arriba de la pagina*/
 	max-width: 1078px;/*para celulares es 1024 pero como la imagen mide eso y el cliente quiero asi*/
@@ -42,7 +42,8 @@ header nav ul li{
 }
 
 #primerseccion{
-	/*border: solid orange;*/ 
+	/*border: solid red;*/ 
+	height: 318px;
 	margin-top: 60px;
 }
 #primerseccion article{
@@ -71,12 +72,46 @@ header nav ul li{
 	content: "• ";
 
 }
+#secc03art04{
+	padding-top: 50px;
+}
+#segundaseccion article{
+	padding-right: 122px;
+	text-align: right; 
+
+}
+#terceraseccion article{
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
+}
+#terceraseccion article input[type="button"]{
+	background: #8BC500;
+	border-radius: 5px;
+	color: white;
+}
+#terceraseccion article img{
+	vertical-align: middle;
+}
+.colorazul{
+	color: #4267B3;
+}
+.colorverde{
+	color: #8BC500;
+}
 .colorrosa{
 	color: #FF0099;
 }
 
 .letragrande{
 	font-size: 3.5em;/*16*3.5*/
+}
+.letramediana{
+	font-size: 2em;
 }
 
 .nito{
